@@ -1,14 +1,15 @@
-var numeroInicialwrapper = document.getElementById('numberInput')
-var numeroInicial = 0
+let numeroInicial = 0
+var numeroInicialwrapper = document.getElementById('numeroInicial')
+
 function increment() {
-  numeroInicial = numeroInicial + 1
+  numeroInicial++
   numeroInicialwrapper.innerHTML = numeroInicial
 }
 
 function decrement() {
-  numeroInicial = numeroInicial - 1
+  numeroInicial--
   numeroInicialwrapper.innerHTML = numeroInicial
-  if ((numeroInicial = null)) {
-    alert('Insira um número')
-  }
+}
+function test() {
+  alert('test')
 }
