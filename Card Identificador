@@ -1,0 +1,11 @@
+// Pedindo ao usuário para digitar o nome
+let nome = prompt("Digite o nome: ");
+
+// Pedindo ao usuário para digitar o sobrenome
+let sobrenome = prompt("Digite o sobrenome: ");
+
+// Pedindo ao usuário para digitar o ID
+let id = prompt("Digite o ID: ");
+
+// Imprimindo as informações no console
+console.log("Nome: " + nome + " " + sobrenome + " " + " ID: " + id);
